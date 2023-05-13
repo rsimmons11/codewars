@@ -1,0 +1,12 @@
+// Convert a Boolean to a String
+
+// My solutions
+
+function booleanToString(b){
+  return b.toString()
+}
+
+
+function booleanToString(b){
+  return b ? 'true' : 'false';
+}
