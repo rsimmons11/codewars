@@ -27,4 +27,4 @@ const number = function(busStops){
 
 
 
-const number = (busStops) => busStops.reduce((rem, [on, off]) => rem + on - off, 0);
+const numbers = (busStops) => busStops.reduce((rem, [on, off]) => rem + on - off, 0);
