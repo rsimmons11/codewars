@@ -14,13 +14,9 @@
 
 
 var isAnagram = function(test, original) {
-  const testArray = test.toLowerCase().split('');
-  const originalArray = original.toLowerCase().split('')
-
-  if (testArray.length !== originalArray.length) {
-    return false
-  }
-  return (testArray.every(char => originalArray.includes(char)) && originalArray.every(char => testArray.includes(char)))
+  const t = test.toLowerCase().split('').sort().join('');
+  const o = original.toLowerCase().split('').sort().join('');
+  return (t==o)?true:false;
 };
 
 
