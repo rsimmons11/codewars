@@ -5,7 +5,7 @@
 // "john McClane" --> "McClane john"
 
 
-My Solutions
+// My Solutions
 
 function nameShuffler(str){
   return str.split(' ').reverse().join(' ')
