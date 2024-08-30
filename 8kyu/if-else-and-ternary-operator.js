@@ -7,6 +7,8 @@
 // n >= 10	90
 // You can use if..else or ternary operator to complete it.
 
+
+
 // My Solutions
 
 
